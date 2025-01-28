@@ -215,8 +215,7 @@ SELECT
     CASE 
         WHEN description ilike '% kill %' OR description ilike '% violence %' THEN 'Bad'
         ELSE 'Good'
-		
-    END AS Category
+END AS Category
 FROM netflix
 )
 SELECT
